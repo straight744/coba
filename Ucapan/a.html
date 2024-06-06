@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Ifa.png">
+        <link rel="Style" href="sty">
+        <title>Kartu Ucapan</title>
+        <style>
+            /* Mengoptimasi tampilan landscape pada tablet dengan lebar maksimal 1060px */
+            @media screen and (max-width: 1060px) {
+            #primary {
+                width: 67%;
+                margin-left: 3%;
+            }
+            #secondary {
+                width: 30%;
+            }
+            }
+
+            .image1{
+                position: flex;
+                justify-content: center;
+            }
+            
+            .image2{
+                position: flex;
+                justify-content: center;
+            }
+
+            .image3{
+                position: flex;
+                justify-content: center;
+                padding-left: 20%;
+            }
+
+            .image4{
+                position: flex;
+                justify-content: center;
+                padding-left: 29%;
+            }
+
+            .image5{
+                position: flex;
+                justify-content: center;
+            }
+
+            .image6{
+                position: flex;
+                justify-content: center;
+            }
+
+            .image7{
+                position: flex;
+                padding-left: 30%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .image8{
+                position: flex;
+                justify-content: center;
+            }
+
+            .image9{
+                position: flex;
+                justify-content: center;
+                margin: 0;
+            }
+
+            .image10{
+                position: flex;
+                padding-left: 31%;
+                justify-content: center;
+            }
+
+            .image11{
+                position: flex;
+                justify-content: center;
+            }
+
+            .image12{
+                position: flex;
+                justify-content: center;
+            }
+
+            h1{
+                display: flex;
+                justify-content: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 40px;
+            }
+
+            .p1{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p2{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p3{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p4{
+                display: flex;
+                justify-content: center;
+                text-justify: center;
+            }
+
+            .p5{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p6{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p7{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p8{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p9{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p10{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p11{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p12{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p13{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p14{
+                display: flex;
+                justify-content: center;
+                text-justify: center;
+            }
+
+            .p15{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p16{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p17{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p18{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p19{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p20{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p12{
+                display: flex;
+                justify-content: center;
+            }
+
+            .p17{
+                display: flex;
+                color: white;
+                justify-content: center;
+            }
+
+            .balon1{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-bottom-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 50px;
+                margin: auto;
+            }
+
+            .balon2{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-bottom-right-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 50px;
+                margin: auto;
+            }
+
+            .balon3{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 10rem;
+                border-bottom-right-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 20px;
+                margin: auto;
+            }
+
+            .balon4{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-bottom-right-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 10px;
+                margin: auto;
+            }
+
+            .balon5{
+                background: whitesmoke;
+                padding: 5px 20px 5px 20px;
+                border-radius: 5rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 50px;
+                margin: auto;
+            }
+
+            .balon6{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                top: 20px;
+                width: fit-content;
+                margin-left: 0;
+            }
+
+            .balon7{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 30px;
+                margin: auto;
+            }
+
+            .balon8{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                top: 40px;
+                width: fit-content;
+                margin-left: 0;
+            }
+
+            .balon9{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-bottom-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 20px;
+                margin: auto;
+            }
+
+            .balon10{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-right-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 20px;
+                bottom: 10px;
+                margin: auto;
+            }
+
+            .balon11{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 30px;
+                margin: auto;
+            }
+
+            .balon12{
+                background: #1883f9;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 10px;
+                margin: auto;
+            }
+
+            .balon13{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 30px;
+                margin: auto;
+            }
+
+            .balon14{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                top: 40px;
+                margin-left: 0;
+                width: fit-content;
+            }
+
+            .balon15{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 30px;
+                margin: auto;
+            }
+
+            .balon16{
+                background: #E9B824;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                top: 40px;
+                margin-left: 0;
+                width: fit-content;
+            }
+
+            .balon17{
+                background: whitesmoke;
+                padding: 5px 100px 5px 100px;
+                border-radius: 50rem;
+                border-top-left-radius: 0rem;
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 30px;
+                margin: auto;
+            }
+
+            .fade-effect-center{
+                position: left="10px";
+            }
+            /* Style dasar untuk container dan teks */
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 1520vh; /* Tinggi container disetel agar memungkinkan scrolling */
+            }
+
+            .text-section {
+                opacity: 0;
+                transition: opacity 2s ease-in-out;
+                margin: 30vh 0; /* Margin untuk memastikan teks tidak langsung muncul saat halaman dimuat */
+            }
+
+            /* Kelas ini akan ditambahkan atau dihapus oleh JavaScript berdasarkan posisi scroll */
+            .fade-in {
+                opacity: 1;
+            }
+
+            .fade-out {
+                opacity: 0;
+            }
+
+            /* Style untuk pop-up di bagian bawah */
+            .bottom-popup {
+                position: fixed;
+                bottom: 2%;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: fit-content;
+                height: auto;
+                border-radius: 4000px 4000px 4000px 4000px;
+                background: #f1f1f1;
+                padding: 10px 10px 10px 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: transform 2s;
+                transform: translateY(100%);
+            }
+
+            /* Style untuk teks dan gambar di dalam pop-up */
+            .bottom-popup-content {
+                font-size: 12px;
+                display: fixed;
+                align-items: center;
+                position: center;
+            }
+
+            .bottom-popup-text {
+                margin-right: 2px;
+                margin-left: 9px;
+            }
+
+            /* Style untuk menghilangkan pop-up saat mencapai bagian bawah */
+            .hide-bottom-popup {
+                transform: translateY(100%);
+            }
+
+            /* Style tambahan untuk gambar */
+            .bottom-popup img {
+                width: 25px; /* Atur lebar gambar sesuai kebutuhan */
+                height: auto;
+            }
+
+            /* Style untuk teks yang akan muncul */
+            .hidden-text {
+                display: none;
+                position: fixed;
+                bottom: 50px;
+                right: 0;
+                left: 0;
+                margin: auto;
+                width: fit-content;
+            }
+
+            /* Mengatur elemen HTML responsif mengikuti lebar di semua perangkat */
+            html, body {
+                width: 100%;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <audio autoplay loop>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="container">
+            <div class="text-section fade-effect">
+                <div class="image1">
+                    <img src="Video1.gif">
+                </div>
+                <h1>Hai Ifa...</h1>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="balon1">
+                    <p class="p1">Gw tau pasti lu nanya-nanya kan, kok gw bisa suka sama lu...</p>
+                </div>
+                <div class="image2">
+                    <img src="bingung.gif" height="250px">
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="balon2">
+                    <p class="p2">Jadi baiknya gw ceritain lewat web ini aja ya...</p>
+                </div>
+                <div class="image3">
+                    <img src="looking.gif" height="250px">
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="balon3">
+                    <p class="p3">Sebernya gw tuh suka merhatiin orang-orang yang disekitar gw</p>
+                </div>
+                <div class="balon4">
+                    <p class="p4">Jadi kalo bahasa mba gw yang psikolog itu namanya restrained introvert</p>
+                </div>
+                <div class="image4">
+                    <img src="jalan.gif" height="250px">
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div  class="balon5">
+                    <p class="p6">Jadi sebenernya gw dulu pas kelas 10 itu suka liat-liat orang di ht....</p>
+                </div>
+                
+            </div>
+            <div class="text-section fade-effect">
+                <div class="image5">
+                    <img src="comel.gif" height="250px">
+                </div>
+                <div class="balon6">
+                    <p class="p7">Cuma ada satu yang bikin gw tertarik</p>
+                </div>
+                <div class="balon7">
+                    <p class="p8">Yang bikin tertarik tuh sircle lu bertiga, lu, cinta, carmen, karna orangnya tuh mirip-mirip lah</p>
+                </div>
+                <div class="balon8">
+                    <p class="p9">Walaupun ga mirip sih muka lu bertiga</p>
+                </div>
+            </div>
+            
+            <div class="text-section fade-effect">
+                <div class="balon9">
+                    <p class="p13">Nah pas kelas 10 gw nanya tuh tentang lu bertiga, cuman yang paling menonjol menurut gw itu lu fa...</p>
+                </div>
+                <div class="image6">
+                    <img src="tiduran.gif" height="250">
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="image7">
+                    <img src="ok.gif" height="250px">
+                </div>
+                <div class="balon10">
+                    <p class="p14">Karna gini, pertama nilainya bagus, kedua cantik apa lagi kalo pake kerudung, nah ini yang paling gw suka lu itu ga terlalu yang wah gitu...</p>
+                </div>
+                <div class="balon11">
+                    <p class="p15">Jadi paket komplit gitu...</p>
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="image8">
+                    <img src="duduk.gif" height="250px">
+                </div>
+                <p class="p16">Nah jadi ceritanya gitu...</p>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="image9">
+                    <img src="nyender.gif" height="400px">
+                </div>
+                <div class="balon12">
+                    <p class="p17">Ya sebenernya gw masih berharap lu nerima...</p>
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="image10">
+                    <img src="2.jpg" height="250">
+                </div>
+                <div class="balon13">
+                    <p class="17">Mungkin lu kurang tau siapa gw, karna jarang banget cerita ke orang karna gw ga percaya setiap orang di ht jadi cuman orang yang pernah ke rumah gw doang yang tau...</p>
+                </div>
+                <div class="balon14">
+                    <p class="18">Jadi gw itu anak pengusaha, anak ke 3 dari 3, bapak gw jawa timur, ibu gw padang</p>
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="">
+                    <img src="kacamata.gif" height="250px">
+                </div>
+                <div class="balon15">
+                    <p class="19">Hobi gw tuh berlawanan sama cita-cita ya, hobi ngoding cita-cita dokter, tapi gw milih untuk jadi dokter</p>
+                </div>
+                <div class="balon16">
+                    <p>Oiyaa... FYI ini webnya gw bikin sendiri...</p>
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="balon17">
+                    <p class="20">Dah gitu aja ya...</p>
+                </div>
+            </div>
+            <div class="text-section fade-effect">
+                <div class="image11">
+                    <img src="bye.gif" height="200">
+                </div>
+                <p class="21">Makasih udah mau baca sampe bawah...</p>
+            </div>
+            
+
+            
+            <!-- Tambahkan lebih banyak teks jika diperlukan -->
+        </div>
+
+        <div class="bottom-popup" id="scroll-popup" >
+            <div class="bottom-popup-content" onclick="showText()">
+                <span class="bottom-popup-text" onclick="showText()">Scroll ke bawah</span>
+                <img src="gambar1.png" onclick="showText()" alt="scroll">
+            </div>
+        </div>
+        <div id="text-to-show" class="hidden-text">
+            <p>Dibaca dulu ya:)</p> 
+        </div>
+
+        <script>
+            // Fungsi untuk menambahkan atau menghapus kelas fade-in dan fade-out
+            function handleScroll() {
+                var windowHeight = window.innerHeight;
+                var scrollY = window.scrollY || window.pageYOffset;
+                var textSections = document.querySelectorAll('.text-section');
+
+                textSections.forEach(function(section) {
+                    var sectionTop = section.getBoundingClientRect().top;
+                    var sectionBottom = section.getBoundingClientRect().bottom;
+
+                // Tambahkan kelas fade-in saat teks masuk viewport
+                if (sectionTop <= windowHeight * 0.75 && sectionBottom >= windowHeight * 0.25) {
+                    section.classList.add('fade-in');
+                    section.classList.remove('fade-out');
+                } else {
+                    // Tambahkan kelas fade-out saat teks keluar viewport
+                    section.classList.add('fade-out');
+                    section.classList.remove('fade-in');
+                }
+                });
+            }
+
+            // Tambahkan event listener untuk scroll
+            window.addEventListener('scroll', handleScroll);
+
+            // Fungsi untuk menampilkan pop-up saat halaman dimuat
+            window.onload = function() {
+                document.getElementById('scroll-popup').style.transform = 'translateY(0)';
+            }
+
+            window.onscroll = function() {
+                var windowHeight = window.innerHeight;
+                var documentHeight = document.documentElement.scrollHeight;
+                var scrollPosition = window.scrollY || window.pageYOffset;
+
+            // Menghitung posisi scroll dari bawah halaman
+                var bottomPosition = documentHeight - (windowHeight + scrollPosition);
+
+            // Jika posisi scroll dari bawah kurang dari atau sama dengan 0, sembunyikan .bottom-popup
+            if (bottomPosition <= 0) {
+                document.getElementById('scroll-popup').style.display = 'none';
+            } else {
+                document.getElementById('scroll-popup').style.display = 'flex';
+            }
+            }
+
+            function showText() {
+                var textElement = document.getElementById('text-to-show');
+                textElement.style.display = 'block'; // Menampilkan teks
+                // Scroll ke bagian bawah halaman
+                
+  
+                // Menghilangkan teks setelah beberapa detik atau ketika mencapai bagian bawah
+                setTimeout(function() {
+                textElement.style.display = 'none';
+                }, 3000); // Menghilangkan teks setelah 3 detik
+            }
+        </script>
+    </body>
+</html>

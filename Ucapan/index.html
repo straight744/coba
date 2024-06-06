@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ucapan</title>
+    <link rel="icon" href="Ifa.png">
+    <style>
+        /* Style all input fields */
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px;
+            border-radius: 4px;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+
+        /* Style the container for inputs */
+        .container {
+            background-color: #f1f1f1;
+            padding: 50px;
+            text-align: center; /* Center align the content */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+        }
+
+        button{
+            background-color: #1883F9;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Masukkan Kata Sandi:</p>
+        <form action="a.html">
+            <div>
+                <input type="password" id="passwordInput" placeholder="Kata Sandi">
+                <p class="error-message" id="errorMessage">Kata sandi salah. Silakan coba lagi.</p>
+            </div>
+            <br>
+            <button type="submit">Lanjutkan</button>
+     
+        </form>
+    </div>
+    <script>
+        // Hide error message initially
+        document.getElementById("errorMessage").style.display = "none";
+
+        // Validate password on form submission
+        document.querySelector("form").addEventListener("submit", function (event) {
+            var password = document.getElementById("passwordInput").value;
+            if (password !== "Mifa_01") {
+                event.preventDefault(); // Prevent form submission
+                document.getElementById("errorMessage").style.display = "block"; // Show error message
+            }
+        });
+    </script>
+</body>
+</html>
